@@ -37,7 +37,7 @@ function gotPoses(results)
         rightWristX = results[0].pose.rightWrist.x;
         difference = floor(leftWristX - rightWristX);
 
-        console.log("leftWristX = " + leftWristX + "rightWristX = " + rightWristX + "difference = " + differnece);
+        console.log("leftWristX = " + leftWristX + "rightWristX = " + rightWristX + "difference = " + difference);
     }
 }
 
